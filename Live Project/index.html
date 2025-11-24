@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GDG PUP Student Portfolio</title>
+    <!-- Import Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Google+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- GDG Badge -->
+      <div class="header-badge">GDG on Campus PUP</div>
+
+      <h1>Randy Sparky Lorenzo</h1>
+      <p>
+        Sparky Student | Web Developer |
+        <span style="color: var(--google-yellow)">Sparky Fan</span>
+      </p>
+
+      <div class="social-links">
+        <a href="#" target="_blank"><span>📧</span> Email</a>
+        <a href="#" target="_blank"><span>💼</span> LinkedIn</a>
+        <a href="#" target="_blank"><span>🐙</span> GitHub</a>
+        <a href="#" target="_blank"><span>🌐</span> GDG Profile</a>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <!-- About Section -->
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <!-- Placeholder for Sparky. 
+                         If you have a local image, change src to "sparky.png". 
+                         Currently using a generic friendly robot/mascot icon. -->
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4712/4712139.png"
+              alt="Sparky Mascot"
+              onerror="this.src='https://via.placeholder.com/150/4285F4/FFFFFF?text=Sparky'"
+            />
+          </div>
+          <div class="about-text">
+            <p>
+              <strong>Mabuhay!</strong> I'm a Sparky student at
+              <strong>PUP</strong> and a proud member of
+              <strong>Google Developer Groups on Campus PUP</strong>. I
+              specialize in building scalable web applications and exploring
+              cloud technologies.
+            </p>
+            <p style="margin-top: 15px">
+              Driven by the <em>Iskolar ng Bayan</em> spirit, I aim to use
+              technology to solve community problems.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2>My Tech Stack</h2>
+        <div class="skills-container">
+          <div class="skill-item">
+            <h3>💻 Frontend</h3>
+            <p>HTML5, CSS3, JS, React.js, Tailwind</p>
+          </div>
+          <div class="skill-item">
+            <h3>🎨 UI Design</h3>
+            <p>Figma, Material Design 3, Adobe XD</p>
+          </div>
+          <div class="skill-item">
+            <h3>⚡ Backend</h3>
+            <p>Node.js, Express</p>
+          </div>
+          <div class="skill-item">
+            <h3>🔧 Tools</h3>
+            <p>Git, VS Code</p>
+          </div>
+          <div class="skill-item">
+            <h3>☁️ Cloud</h3>
+            <p>Google Cloud Platform (GCP)</p>
+          </div>
+          <div class="skill-item">
+            <h3>🤖 AI</h3>
+            <p>Gemini, ChatGPT, Claude</p>
+          </div>
+        </div>
+      </section>
+
+      <!--  {# ========= GRID PART DISCUSSION ========= #}-->
+      <!--  Projects Section -->
+      <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <span class="project-status completed">Deployed</span>
+            <div>
+              <h3>🌐 GDG ID Platform</h3>
+              <p>
+                A web app for retrieving and generating GDG ID for GDG PUP members.
+              </p>
+            </div>
+            <div class="project-links">
+              <a target="_blank" href="https://gdg-id-platform.vercel.app/" class="project-link">Live Demo</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <span class="project-status in-progress">In Progress</span>
+            <div>
+              <h3>📝 GDG Next Website</h3>
+              <p>
+                An exciting future project for the GDG PUP community. Stay Tune!
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">View Code</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <span class="project-status completed">Hackathon</span>
+            <div>
+              <h3>🎮 Sparkfest 20XX</h3>
+              <p>
+                An engaging website for the Sparkfest 20XX hackathon.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">View Code</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interests Section -->
+      <section id="interests">
+        <h2>Interests</h2>
+        <ul class="interests-list">
+          <li>Web Development <span class="new-badge">Core</span></li>
+          <li>IoT & Hardware</li>
+          <li>Cloud Computing</li>
+          <li>Open Source Contributing</li>
+          <li>Tech Community Building</li>
+          <li>PUP Feasibility Studies</li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Let's Connect</h2>
+        <p>
+          Got a project in mind or want to discuss the latest Google Tech? Reach
+          out!
+        </p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <strong>Email</strong><br />
+              <a href="mailto:randy.lorenzo@iskolarngbayan.pup.edu.ph"
+                >sparkylorenzo@iskolarngbayan.pup.edu.ph</a
+              >
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💼</div>
+            <div>
+              <strong>LinkedIn</strong><br />
+              <a href="#" target="_blank">linkedin.com/in/sparkylorenzo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Randy Sparky Lorenzo. GDG on Campus PUP.</p>
+      <p>
+        Made with <span style="color: var(--google-red)">❤</span> and
+        <span style="color: var(--google-blue)">Code</span>
+      </p>
+      <div style="margin-top: 10px; font-size: 0.8em">
+        <a href="#">Privacy Policy</a> | <a href="#">Credits</a>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">↑</a>
+  </body>
+</html>

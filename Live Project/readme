@@ -1,0 +1,12 @@
+# Live Project
+
+This folder contains the live coding project for the GDG PUP HTML & CSS Bootcamp webinar.
+
+## Files
+
+- `index.html`: The main HTML page
+- `styles.css`: The CSS stylesheet for styling the page
+
+## How to View
+
+Open `index.html` in your web browser to see the project in action.
