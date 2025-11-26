@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload only the Live Pages folder
-          path: 'Live Pages'
+          path: 'Live Project'
 
       - name: Deploy to GitHub Pages
         id: deployment
